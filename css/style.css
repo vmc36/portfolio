@@ -87,7 +87,6 @@ header p:hover {
     justify-content: space-between;
     text-align: center;
     height: 184px;
-    width: 624px;
     box-shadow: 2px 2px 2px 2px #fff;
 }
 
@@ -123,7 +122,4 @@ header p:hover {
     padding:0em 2em 4em;
 }
 
-#contacts{
-    height: 65vh;
-}
 
