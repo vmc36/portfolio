@@ -1,4 +1,19 @@
+const swiper = new Swiper('.swiper', {
 
-/* Main Function AOS*/
-AOS.init();
+    autoplay:{
+      delay:1000
+    },
+
+    slidesPerView: 2,
+    effect: 'coverflow',
+    spaceBetween:1,
+    coverflowEffect: {
+    rotate: 1,
+    stretch:1,
+    slideShadows: false,
+    centeredSlides:true,
+    rewind:true,
+  },
+  });
+
 
